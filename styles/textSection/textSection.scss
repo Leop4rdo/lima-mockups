@@ -4,21 +4,44 @@ section.textSection {
     justify-content: space-between;
     align-items: center;
 
-    img {
-        width: 500px;
+    img.img_large {
+        width: 400px;
+    }
+
+    img.img_small {
+        width: 200px;
+
+        border-radius: 100%;
     }
 
     .text{
-        width: 500px;
+        width: 400px;
         
-        h1 {
+        h2 {
             color: #b572d5;
-            font-size: 64px;
+            font-size: 48px;
             margin-bottom: 20px;
         }
         
         p {
             font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+    }
+
+    ul {
+        list-style: disc;
+
+        width: 400px;
+
+        li{
+            font-size: 32px;
+            color : #b572d5;
         }
     }
 }

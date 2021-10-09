@@ -14,21 +14,42 @@ section.textSection {
           align-items: center;
 }
 
-section.textSection img {
-  width: 500px;
+section.textSection img.img_large {
+  width: 400px;
+}
+
+section.textSection img.img_small {
+  width: 200px;
+  border-radius: 100%;
 }
 
 section.textSection .text {
-  width: 500px;
+  width: 400px;
 }
 
-section.textSection .text h1 {
+section.textSection .text h2 {
   color: #b572d5;
-  font-size: 64px;
+  font-size: 48px;
   margin-bottom: 20px;
 }
 
 section.textSection .text p {
   font-size: 18px;
+  margin-bottom: 20px;
+}
+
+section.textSection .text li {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+section.textSection ul {
+  list-style: disc;
+  width: 400px;
+}
+
+section.textSection ul li {
+  font-size: 32px;
+  color: #b572d5;
 }
 /*# sourceMappingURL=textSection.css.map */
