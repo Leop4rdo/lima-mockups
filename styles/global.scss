@@ -29,4 +29,17 @@ section {
 
     padding-left: 15%;
     padding-right: 15%;
+
+    position: relative;
+}
+
+a.roll_down {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    img {
+        width: 50px;
+    }
 }

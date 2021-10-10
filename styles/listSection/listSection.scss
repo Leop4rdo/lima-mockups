@@ -1,0 +1,17 @@
+section.list_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        color: #b572d5;
+        font-size: 48px;
+        margin-bottom: 50px;
+    }
+    
+    li {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+}

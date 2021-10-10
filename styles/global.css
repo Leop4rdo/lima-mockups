@@ -30,5 +30,18 @@ section {
   width: 100%;
   padding-left: 15%;
   padding-right: 15%;
+  position: relative;
+}
+
+a.roll_down {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+a.roll_down img {
+  width: 50px;
 }
 /*# sourceMappingURL=global.css.map */
