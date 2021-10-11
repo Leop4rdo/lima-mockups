@@ -21,6 +21,8 @@ body {
     flex-direction: column;
 
     background-color: #eee;
+
+    overflow-x: hidden;
 }
 
 section {
@@ -39,6 +41,11 @@ a.roll_btn {
     left: 50%;
     transform: translate(-50%, -50%);
 
+    animation-name: roll_btn_bounce;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
     img {
         width: 50px;
     }
@@ -46,4 +53,18 @@ a.roll_btn {
 
 a.roll_btn#roll_up {
     transform: rotate(180deg);
+}
+
+@keyframes roll_btn_bounce {
+    0% {
+        bottom: 25px;
+    }
+
+    50% {
+        bottom: 40px;
+    }
+
+    100% {
+        bottom: 25px;
+    }
 }

@@ -23,6 +23,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #eee;
+  overflow-x: hidden;
 }
 
 section {
@@ -39,6 +40,14 @@ a.roll_btn {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  -webkit-animation-name: roll_btn_bounce;
+          animation-name: roll_btn_bounce;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 a.roll_btn img {
@@ -48,5 +57,29 @@ a.roll_btn img {
 a.roll_btn#roll_up {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+@-webkit-keyframes roll_btn_bounce {
+  0% {
+    bottom: 25px;
+  }
+  50% {
+    bottom: 40px;
+  }
+  100% {
+    bottom: 25px;
+  }
+}
+
+@keyframes roll_btn_bounce {
+  0% {
+    bottom: 25px;
+  }
+  50% {
+    bottom: 40px;
+  }
+  100% {
+    bottom: 25px;
+  }
 }
 /*# sourceMappingURL=global.css.map */
