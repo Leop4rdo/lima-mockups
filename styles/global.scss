@@ -33,7 +33,7 @@ section {
     position: relative;
 }
 
-a.roll_down {
+a.roll_btn {
     position: absolute;
     bottom: 25px;
     left: 50%;
@@ -42,4 +42,8 @@ a.roll_down {
     img {
         width: 50px;
     }
+}
+
+a.roll_btn#roll_up {
+    transform: rotate(180deg);
 }

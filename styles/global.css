@@ -33,7 +33,7 @@ section {
   position: relative;
 }
 
-a.roll_down {
+a.roll_btn {
   position: absolute;
   bottom: 25px;
   left: 50%;
@@ -41,7 +41,12 @@ a.roll_down {
           transform: translate(-50%, -50%);
 }
 
-a.roll_down img {
+a.roll_btn img {
   width: 50px;
+}
+
+a.roll_btn#roll_up {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 /*# sourceMappingURL=global.css.map */
