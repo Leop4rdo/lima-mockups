@@ -1,4 +1,4 @@
-# Lima - Galeria Flex
+# Lima - Mockups
 
 <img src="site.png" width="750px" />
 
