@@ -18,7 +18,7 @@ O objetivo do exercicio era realizar uma pesquisa sobre "mockups" e apresentar e
 ## Grupo
 
 -   <a href="https://github.com/adriellourenco" target="_blank">Adriel Lourenço</a>
--   <a href="https://github.com/Gabshh" target="_blank">Gabriel</a>
+-   <a href="https://github.com/Gabshh" target="_blank">Gabriel Gomes</a>
 -   <a href="https://github.com/Leop4rdo" target="_blank">Leonardo Antunes</a>
 
 ## Link da pagina:
